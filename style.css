@@ -1,0 +1,111 @@
+body {
+  background: #f5f5f5;
+  background:#551a8b;
+  color: #6f6b67;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+  font-family: 'Gaegu', cursive;
+
+}
+h1{
+  font-family: 'Gaegu', cursive;
+  font-weight: 300;
+  color: #6f6b67;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 3rem;
+  letter-spacing: -0.1rem;
+}
+
+.btn{
+  text-decoration: none;
+}
+h2{
+  margin-bottom: 3rem;
+}
+p {
+  font-family: 'DM Sans', sans-serif;
+  margin-bottom: 3rem;
+  display: block;
+  width: 4rem;
+  margin: 0 auto;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  padding-top:1rem;
+  border-top: 1px solid #6f6b67;
+}
+
+}
+a {
+  /* color: #e85d75; */
+  text-decoration: none;
+  color:#6f6b67
+
+}
+
+
+
+img {opacity: 0.6;}
+
+.container {
+  width: 400px;
+  margin: 40px auto;
+}
+.card{
+  background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.img-circle {
+  border-radius: 10%;
+  /* border: solid 1px black; */
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 3rem;
+  padding: 0.1em;
+
+}
+.list-inline > li > i {
+
+}
+.btn{
+  background-color: #6f6b67;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
